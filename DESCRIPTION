@@ -1,0 +1,26 @@
+Package: marinerData
+Title: ExperimentHub data for the mariner package
+Version: 0.99.0
+Date: 2023-03-30
+Authors@R: c(
+    person("Eric", "Davis", role = c("aut", "cre"),
+      email = "ericscottdavis@outlook.com",
+      comment = c(ORCID = "0000-0003-4051-3217"))
+  )
+Description: Subsampled Hi-C in HEK cells expressing 
+    the NHA9 fusion with an F to S mutated IDR ("FS") or
+    without any mutations to the IDR ("Wildtype" or "WT").
+    These files are used for testing mariner functions and
+    some examples.
+License: Artistic-2.0
+BugReports: https://support.bioconductor.org/t/marinerData
+Imports: 
+    ExperimentHub
+Suggests: 
+    ExperimentHubData,
+    testthat (>= 3.0.0)
+biocViews: ExperimentHub, ExperimentData, SequencingData
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Config/testthat/edition: 3

@@ -1,0 +1,21 @@
+---
+title: "marinerData package"
+output:
+  rmarkdown::html_document
+vignette: |
+  %\VignetteIndexEntry{marinerData package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The *marinerData* package provides some small 
+Hi-C files for the *mariner* package vignettes and tests.
+
+```{r}
+library(nullrangesData)
+hicFiles <- c(
+    "FS" = LEUK_HEK_PJA27_inter_30.hic(),
+    "WT" = LEUK_HEK_PJA30_inter_30.hic()
+)
+hicFiles
+```
