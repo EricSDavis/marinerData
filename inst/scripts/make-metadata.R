@@ -21,7 +21,7 @@ metadata <- data.frame(
     ),
     BiocVersion = rep("3.17", 2),
     Genome = rep("hg19", 2),
-    SourceType = rep("TXT", 2),
+    SourceType = rep("HIC", 2),
     SourceUrl = c(
         paste0(
             "https://zenodo.org/record/7786502/files/",
