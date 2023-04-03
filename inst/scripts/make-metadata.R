@@ -40,10 +40,10 @@ metadata <- data.frame(
     Maintainer = rep("Eric S Davis <ericscottdavis@outlook.com>", 2),
     RDataClass = rep(NA_character_, 2),
     DispatchClass = rep("FilePath", 2),
-    Location_Prefix = rep("https://zenodo.org/record/7786502/files/", 2),
+    Location_Prefix = rep("https://zenodo.org/", 2),
     RDataPath = c(
-        "LEUK_HEK_PJA27_inter_30.hic?download=1",
-        "LEUK_HEK_PJA30_inter_30.hic?download=1"
+        "record/7786502/files/LEUK_HEK_PJA27_inter_30.hic?download=1",
+        "record/7786502/files/LEUK_HEK_PJA30_inter_30.hic?download=1"
     ),
     Tags = rep("Hi-C", 2)
 )
