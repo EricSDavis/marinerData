@@ -25,11 +25,11 @@ metadata <- data.frame(
     SourceUrl = c(
         paste0(
             "https://zenodo.org/record/7786502/files/",
-            "LEUK_HEK_PJA27_inter_30.hic?download=1"
+            "LEUK_HEK_PJA27_inter_30.hic"
         ),
         paste0(
             "https://zenodo.org/record/7786502/files/",
-            "LEUK_HEK_PJA30_inter_30.hic?download=1"
+            "LEUK_HEK_PJA30_inter_30.hic"
         )
     ),
     SourceVersion = rep("v1", 2),
@@ -42,8 +42,8 @@ metadata <- data.frame(
     DispatchClass = rep("FilePath", 2),
     Location_Prefix = rep("https://zenodo.org/", 2),
     RDataPath = c(
-        "record/7786502/files/LEUK_HEK_PJA27_inter_30.hic?download=1",
-        "record/7786502/files/LEUK_HEK_PJA30_inter_30.hic?download=1"
+        "record/7786502/files/LEUK_HEK_PJA27_inter_30.hic",
+        "record/7786502/files/LEUK_HEK_PJA30_inter_30.hic"
     ),
     Tags = rep("Hi-C", 2)
 )

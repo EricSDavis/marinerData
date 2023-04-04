@@ -1,6 +1,6 @@
 Package: marinerData
 Title: ExperimentHub data for the mariner package
-Version: 0.99.3
+Version: 0.99.4
 Date: 2023-03-30
 Authors@R: c(
     person("Eric", "Davis", role = c("aut", "cre"),
@@ -22,5 +22,6 @@ Suggests:
 biocViews: ExperimentHub, ExperimentData, SequencingData
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Config/testthat/edition: 3
+VignetteBuilder: knitr

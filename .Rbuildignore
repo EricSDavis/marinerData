@@ -1,2 +1,4 @@
 ^marinerData\.Rproj$
 ^\.Rproj\.user$
+^doc$
+^Meta$

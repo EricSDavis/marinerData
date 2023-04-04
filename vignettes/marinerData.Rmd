@@ -12,10 +12,16 @@ The *marinerData* package provides some small
 Hi-C files for the *mariner* package vignettes and tests.
 
 ```{r}
-library(nullrangesData)
+library(marinerData)
 hicFiles <- c(
     "FS" = LEUK_HEK_PJA27_inter_30.hic(),
     "WT" = LEUK_HEK_PJA30_inter_30.hic()
 )
 hicFiles
+```
+
+# Session information
+
+```{r}
+sessionInfo()
 ```
