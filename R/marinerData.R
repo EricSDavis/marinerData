@@ -16,6 +16,7 @@
 #'  LEUK_HEK_PJA30_inter_30.hic - Subsampled Hi-C in HEK
 #'  cells expressing the NHA9 fusion with a Wildtype IDR.
 #'
+#' @returns Downloads and caches `.hic` files.
 #' @name marinerData
 #' @aliases marinerData marinerData
 #' @docType package
