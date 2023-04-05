@@ -16,7 +16,7 @@ NULL
 #' NHA9 fusion with an F to S mutated IDR.
 #'
 #' @name LEUK_HEK_PJA27_inter_30.hic
-#'
+#' @returns Downloads and caches a `.hic` file.
 #' @examples
 #'
 #' hicFile <- LEUK_HEK_PJA27_inter_30.hic()
@@ -30,7 +30,7 @@ NULL
 #' NHA9 fusion with a Wildtype IDR.
 #'
 #' @name LEUK_HEK_PJA30_inter_30.hic
-#'
+#' @returns Downloads and caches a `.hic` file.
 #' @examples
 #'
 #' hicFile <- LEUK_HEK_PJA30_inter_30.hic()
