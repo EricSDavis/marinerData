@@ -3,6 +3,9 @@
 \name{LEUK_HEK_PJA27_inter_30.hic}
 \alias{LEUK_HEK_PJA27_inter_30.hic}
 \title{Example Hi-C data}
+\value{
+Downloads and caches a \code{.hic} file.
+}
 \description{
 Subsampled Hi-C in HEK cells expressing the
 NHA9 fusion with an F to S mutated IDR.
