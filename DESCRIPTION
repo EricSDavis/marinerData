@@ -1,6 +1,5 @@
 Package: marinerData
 Title: ExperimentHub data for the mariner package
-<<<<<<< HEAD
 Version: 0.99.7
 Date: 2023-03-30
 Authors@R: c(
@@ -13,7 +12,6 @@ Description: Subsampled Hi-C in HEK cells expressing
     without any mutations to the IDR ("Wildtype" or "WT").
     These files are used for testing mariner functions and
     some examples.
-<<<<<<< HEAD
 License: GPL-3
 BugReports: https://support.bioconductor.org/t/marinerData
 Imports: 
@@ -27,7 +25,6 @@ Suggests:
 biocViews: ExperimentHub, ExperimentData, SequencingData
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-<<<<<<< HEAD
 RoxygenNote: 7.2.3
 Config/testthat/edition: 3
 VignetteBuilder: knitr
