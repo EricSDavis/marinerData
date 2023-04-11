@@ -14,10 +14,54 @@ Hi-C files for the *mariner* package vignettes and tests.
 ```{r}
 library(marinerData)
 hicFiles <- c(
-    "FS" = LEUK_HEK_PJA27_inter_30.hic(),
-    "WT" = LEUK_HEK_PJA30_inter_30.hic()
+    LEUK_HEK_PJA27_inter_30.hic(),
+    LEUK_HEK_PJA30_inter_30.hic()
 )
+names(hicFiles) <- c("FS", "WT")
 hicFiles
+```
+
+It also provides two sets of loop calls. The following
+two files correspond to the test Hi-C files described
+above.
+
+```{r}
+library(marinerData)
+nha9Loops <- c(
+  FS_5kbLoops.txt(),
+  WT_5kbLoops.txt()
+)
+```
+
+Additionally, loop calls from a THP-1 activation
+timecourse are also provided. These cells were
+exposed to LPS & IF-G for 0, 30, 60, 90, 120, 240,
+360, or 1440 minutes. The dataset is abbreviated
+as LIMA (LPS/IF-G Induced Macrophage Activation).
+
+```{r}
+library(marinerData)
+limaLoops <- c(
+  LIMA_0000.bedpe(),
+  LIMA_0030.bedpe(),
+  LIMA_0060.bedpe(),
+  LIMA_0090.bedpe(),
+  LIMA_0120.bedpe(),
+  LIMA_0240.bedpe(),
+  LIMA_0360.bedpe(),
+  LIMA_1440.bedpe()
+)
+names(limaLoops) <- c(
+  "LIMA_0000",
+  "LIMA_0030",
+  "LIMA_0060",
+  "LIMA_0090",
+  "LIMA_0120",
+  "LIMA_0240",
+  "LIMA_0360",
+  "LIMA_1440"
+)
+limaLoops
 ```
 
 # Session information

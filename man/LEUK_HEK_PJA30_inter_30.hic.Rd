@@ -2,7 +2,7 @@
 % Please edit documentation in R/zzz.R
 \name{LEUK_HEK_PJA30_inter_30.hic}
 \alias{LEUK_HEK_PJA30_inter_30.hic}
-\title{Example Hi-C data}
+\title{Example NHA9 (WT) Hi-C data}
 \value{
 Downloads and caches a \code{.hic} file.
 }
