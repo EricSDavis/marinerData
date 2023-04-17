@@ -1,6 +1,6 @@
 Package: marinerData
 Title: ExperimentHub data for the mariner package
-Version: 0.99.10
+Version: 0.99.11
 Date: 2023-03-30
 Authors@R: c(
     person("Eric", "Davis", role = c("aut", "cre"),
